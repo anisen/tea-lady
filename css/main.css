@@ -1,1 +1,121 @@
 /* Escribe acá tus estilos*/
+*{
+	font-family: 'Lora', serif;
+}
+
+body{
+
+ background: white;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	
+	font-weight: 700;
+}
+header{
+	height: 450px;
+	background-image: url("../image/fondo-1.jpg");
+	background-size: 800px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+header img{
+	width: 150px;
+}
+header h1{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	padding: 30px;
+	margin: 0;
+}
+.encabezado{
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 50px;
+
+  }
+ td {
+    height: 430px;
+    vertical-align: bottom;
+}
+
+
+#formulario{
+	background: #67e209; /* Old browsers */
+background: -moz-linear-gradient(top, #67e209 0%, #79c141 50%, #a5dd7a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #67e209 0%,#79c141 50%,#a5dd7a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #67e209 0%,#79c141 50%,#a5dd7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67e209', endColorstr='#a5dd7a',GradientType=0 ); /* IE6-9 */width: 57%;
+	margin: 0 auto;
+	padding: 15px;
+	margin-top: 15px;
+}
+
+#formulario p{
+	color: whitesmoke;
+}
+
+.formulario-te label{
+	color: whitesmoke;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	display: block;
+	margin: 8px 0;
+}
+.formulario-te select, 
+.formulario-te input,
+.formulario-te button{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(255,255,255, 0.2);
+	border: 1px solid rgba(245,245,245, 0.5);
+	box-sizing: border-box;
+	color: whitesmoke;
+}
+
+.formulario-te select option{
+	color: #646464;
+	padding: 10px;	
+}
+
+/*.formulario-te input[type='checkbox']{
+	margin-top: 13px;
+	margin-right: 10px;
+	background-color: rgba(255,255,255, 0.2);
+	width: auto;
+	float: left;
+}*/
+
+/*.special-lab{
+	width: auto;
+	color: whitesmoke;
+	float: left;
+}*/
+
+.formulario-te button{
+	background-color: #789A9A;
+	border: none;
+	font-size: 20px;
+	padding: 20px;
+	font-weight: bold;
+}
+form {
+	text-align:left;
+	padding-left: 20%;
+	padding-right: auto;
+
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
